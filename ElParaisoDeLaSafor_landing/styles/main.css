@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --alpha-black: rgba(0, 0, 0, 0.3);
+  --alpha-white: rgba(255, 255, 255, 0.8);
+  --black: black;
+  --darkgrey: #aaa;
+  --grey: #c6c6c6;
+  --red: red;
+  --white: white;
+  --yellow: yellow;
+  --dark-yellow: rgb(181, 181, 3);
+}
+
+body {
+  width: 100%;
+  font-family:sans-serif;
+  font-size: 20px;
+ 
+}

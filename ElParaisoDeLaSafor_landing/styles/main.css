@@ -5,7 +5,7 @@
 :root {
   --alpha-black: rgba(0, 0, 0, 0.3);
   --alpha-white: rgba(255, 255, 255, 0.8);
-  --black: black;
+  --azul-oscuro:rgb(33,55,91);
   --darkgrey: #aaa;
   --grey: #c6c6c6;
   --red: red;
@@ -56,7 +56,8 @@ color:var(--white)
   flex-flow:wrap row;
   justify-content:space-evenly;
   border: 3px blue solid;
-  background:whitesmoke;
+  border-radius: 30px;
+  background:var(--white);
   padding-top: 4rem;
 }
 .cajas{
@@ -65,10 +66,89 @@ color:var(--white)
   max-width:30%;
   margin-bottom: 5rem;
 }
-.cajas:hover img{-webkit-transform:scale(5);transform:scale(5);}
+
+.cajas:hover img{-webkit-transform:scale(3);transform:scale(3);
+
+}
+
+
 .container-cajas{
   padding-top: 10rem;
   border:4px solid green;
   height:80rem;
  
+}
+/*header (parte central) */
+
+header{
+  background-image: url(/ElParaisoDeLaSafor_landing/xeraco_img/IMG_1246.JPG);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  border-bottom: 15px solid  rgb(230, 68, 68);
+}
+
+header .logo{
+  display: flex;
+  justify-content:space-around;
+}
+
+header .logo img{
+  width:10rem;
+  
+}
+/* BARRA NAVEGADOR */
+aside {
+
+}
+.barra-nav{
+  background-color:aqua;
+}
+
+
+section{
+  background-image:url(/ElParaisoDeLaSafor_landing/xeraco_img/IMG_1246.JPG) ;
+}
+picture .cajas , img{
+width: 5rem;
+text-align: center;
+}
+
+/* FOOTER (pie de pagina) */
+footer{
+  max-width: 0 auto;
+  max-width:100%;
+  background-color: var(--azul-oscuro);
+  height: 40rem;
+}
+.container-footer{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5rem;
+}
+.social{
+  display: flex;
+  width: 20%;
+}
+.social img{
+  padding: 2rem;
+}
+ .contact p{
+  color:var(--white);
+  font-weight: 600;
+  font-size: smaller;
+}
+.final-flex a:hover{
+  color: var(--dark-yellow);
+}
+.contact p:hover{
+color: var(--dark-yellow);
+}
+.final-flex{
+  font-weight: 600;
+  font-size: smaller;
+  color:var(--white);
+  display: flex;
+  flex-direction:column;
+  align-items:center;
 }

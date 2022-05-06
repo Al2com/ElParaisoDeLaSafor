@@ -1,4 +1,20 @@
+header{
+  background-image: url(/ElParaisoDeLaSafor_landing/xeraco_img/IMG_1246.JPG);
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  /* border-bottom: 15px solid  rgb(230, 68, 68); */
+}
 
+header .logo{
+  display: flex;
+  justify-content:space-around;
+}
+
+header .logo img{
+  width:10rem;
+  
+}
 
    
  

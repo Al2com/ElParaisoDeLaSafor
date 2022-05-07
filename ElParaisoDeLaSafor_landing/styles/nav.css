@@ -1,17 +1,19 @@
 
 
 nav{
+  border: 3px solid;
  background-color:white;
  
 }
-
-
-.flex ul{
+.elements{
   display: flex;
   flex-direction:row;
-
-  
 }
+/* .flex ul { */
+  /* display: flex; */
+  /* flex-direction: row; */
+/* } */
+
 
 nav li{
  padding: 2rem;

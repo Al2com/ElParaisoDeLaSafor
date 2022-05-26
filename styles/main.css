@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --alpha-black: rgba(0, 0, 0, 0.3);
+  --alpha-white: rgba(255, 255, 255, 0.8);
+  --azul-oscuro: rgb(33, 55, 91);
+
+  --grey: #c6c6c6;
+  --red: red;
+  --white: white;
+  --yellow: yellow;
+  --normal: Arial, Helvetica, sans-serif;
+}
+
+html {
+  font-size: 100%; /*1rem sea lo que el usuario establecio como tamaño de fuente original */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: var(--alpha-black);
+}
+
+picture {
+  display: block;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-weight: 900;
+  color: var(--white);
+}
+
+.logo {
+  padding: 2rem 1rem;
+}
+
+@media (max-width: 900px) {
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .social {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+  }
+  .elements {
+    padding: 3rem 5rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cajas-flex {
+    display: flex;
+    position: absolute;
+    top: 15rem;
+    /* flex-flow: wrap column; */
+    flex-direction: column;
+    align-items: center;
+    /* flex-wrap: wrap; */
+  }
+}

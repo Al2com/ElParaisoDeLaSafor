@@ -1,23 +1,24 @@
 
 
 nav{
+ border: 3px solid;
  background-color:white;
  
 }
-
-
-.flex ul{
+.elements{
   display: flex;
   flex-direction:row;
-
-  
+  justify-content: flex-end;
 }
+
+
 
 nav li{
  padding: 2rem;
  font-family:var(--normal);
  font-size: 22px;
  font-weight: 600;
+ /* color:var(--alpha-black); */
  
 
 }

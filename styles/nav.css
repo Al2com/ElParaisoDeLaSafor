@@ -5,7 +5,6 @@ nav {
 .elements {
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
 }
 
 nav li {
@@ -13,12 +12,11 @@ nav li {
   font-family: var(--normal);
   font-size: 22px;
   font-weight: 600;
-  /* color:var(--alpha-black); */
 }
 nav a {
   list-style: none;
   text-decoration: none;
 }
 nav a :hover {
-  color: crimson;
+  color: var(--red);
 }

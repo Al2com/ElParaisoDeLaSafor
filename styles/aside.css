@@ -11,10 +11,8 @@ aside {
   max-width: 100%;
   margin-top: 55rem;
   display: flex;
-
   flex-direction: row;
   justify-content: space-evenly;
-
   border-radius: 30px;
   background: var(--white);
 }
@@ -23,8 +21,8 @@ aside {
 }
 
 .cajas:hover img {
-  -webkit-transform: scale(3);
-  transform: scale(3);
+  -webkit-transform: scale(2);
+  transform: scale(2);
 }
 
 .container-cajas {

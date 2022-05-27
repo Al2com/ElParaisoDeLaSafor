@@ -25,6 +25,10 @@ footer {
 .contact p:hover {
   color: var(--yellow);
 }
+.social a:hover {
+  -webkit-transform: scale(3);
+  transform: scale(3);
+}
 .final-flex {
   font-weight: 600;
   font-size: 12px;

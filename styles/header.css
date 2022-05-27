@@ -3,7 +3,6 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* border-bottom: 15px solid  rgb(230, 68, 68); */
 }
 
 header .logo {
@@ -12,5 +11,5 @@ header .logo {
 }
 
 header .logo img {
-  width: 10rem;
+  width: 5rem;
 }

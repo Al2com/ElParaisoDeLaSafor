@@ -4,11 +4,8 @@
 
 :root {
   --alpha-black: rgba(0, 0, 0, 0.3);
-  --alpha-white: rgba(255, 255, 255, 0.8);
   --azul-oscuro: rgb(33, 55, 91);
-
   --grey: #c6c6c6;
-  --red: red;
   --white: white;
   --yellow: yellow;
   --normal: Arial, Helvetica, sans-serif;
@@ -16,7 +13,7 @@
 
 html {
   font-size: 100%; /*1rem sea lo que el usuario establecio como tamaño de fuente original */
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--normal);
 }
 
 body {
@@ -69,9 +66,6 @@ h1 {
     display: flex;
     position: absolute;
     top: 15rem;
-    /* flex-flow: wrap column; */
-    flex-direction: column;
-    align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
   }
 }

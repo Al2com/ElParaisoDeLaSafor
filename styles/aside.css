@@ -1,0 +1,37 @@
+aside {
+  background-image: url(/ElParaisoDeLaSafor_landing/xeraco_img/IMG_4454.JPG);
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-size: 100% 100%;
+}
+
+.cajas-flex {
+  width: 100%;
+  max-width: 100%;
+  margin-top: 55rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 30px;
+  background: var(--white);
+}
+.cajas {
+  padding: 1rem;
+}
+
+.cajas:hover img {
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+.container-cajas {
+  padding-top: 10rem;
+  height: 80rem;
+}
+
+picture .cajas,
+img {
+  width: 5rem;
+  text-align: center;
+}

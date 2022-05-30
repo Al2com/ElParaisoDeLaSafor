@@ -1,0 +1,22 @@
+nav {
+  border: 3px solid;
+  background-color: white;
+}
+.elements {
+  display: flex;
+  flex-direction: row;
+}
+
+nav li {
+  padding: 2rem;
+  font-family: var(--normal);
+  font-size: 22px;
+  font-weight: 600;
+}
+nav a {
+  list-style: none;
+  text-decoration: none;
+}
+nav a :hover {
+  color: var(--red);
+}

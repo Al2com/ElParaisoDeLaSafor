@@ -5,6 +5,7 @@ nav {
 .elements {
   display: flex;
   flex-direction: row;
+  justify-content: end;
 }
 
 nav li {

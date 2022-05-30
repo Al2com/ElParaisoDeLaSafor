@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /*establece que lo que demos de padding y boreder este dentro de la caja*/
 }
 
 :root {
@@ -7,6 +7,7 @@
   --azul-oscuro: rgb(33, 55, 91);
   --grey: #c6c6c6;
   --white: white;
+  --red : red;
   --yellow: yellow;
   --normal: Arial, Helvetica, sans-serif;
 }
@@ -61,11 +62,15 @@ h1 {
     padding: 3rem 5rem;
     display: flex;
     flex-wrap: wrap;
+    /* justify-content:start; preguntar por que no funciona */
+  
   }
   .cajas-flex {
+
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     top: 15rem;
-    flex-wrap: wrap;
+
   }
 }

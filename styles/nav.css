@@ -2,9 +2,9 @@ nav {
   border: 3px solid;
   background-color: white;
 }
-.elements {
+.elements{
   display: flex;
-  flex-direction: row;
+  flex-direction:row;
   justify-content: end;
 }
 
@@ -13,10 +13,13 @@ nav li {
   font-family: var(--normal);
   font-size: 22px;
   font-weight: 600;
+ 
+ 
 }
 nav a {
   list-style: none;
   text-decoration: none;
+  
 }
 nav a :hover {
   color: var(--red);

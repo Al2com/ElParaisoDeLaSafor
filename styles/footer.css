@@ -10,12 +10,13 @@ footer {
 }
 .social {
   display: flex;
+  padding-top: 4rem;
 }
 .social img {
   padding: 2rem;
 }
 .contact{
-  padding-top:1rem;
+  padding-top:5rem;
 }
 .contact p {
   color: var(--white);

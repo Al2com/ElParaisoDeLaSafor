@@ -6,7 +6,6 @@ header {
   border-bottom: 5px white solid;
 }
 
-
 header .logo {
   display: flex;
   justify-content: space-between;
@@ -18,9 +17,12 @@ header .logo img {
   margin-right: 2rem;
 }
 
-header button{
-  display:none;
+header button {
+  display: none;
 }
-menu{
-  display:none;
+menu {
+  display: none;
+}
+button > img{
+  width: 5%;
 }

@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /*establece que lo que demos de padding y boreder este dentro de la caja*/
 }
 
 :root {
@@ -7,6 +7,7 @@
   --azul-oscuro: rgb(33, 55, 91);
   --grey: #c6c6c6;
   --white: white;
+  --red: red;
   --yellow: yellow;
   --normal: Arial, Helvetica, sans-serif;
 }
@@ -22,6 +23,11 @@ body {
   margin: 0 auto;
   font-size: 20px;
   background-color: var(--alpha-black);
+  /* Para mantener el footer en la parte inferior de la pantalla
+  cuando el main no ocupa todo el alto */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 picture {
@@ -40,14 +46,14 @@ h1 {
 }
 
 .logo {
-  padding: 2rem 1rem;
+  padding: 5rem;
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .container-footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
   }
   .social {
     flex-direction: row;
@@ -57,15 +63,51 @@ h1 {
     display: flex;
     justify-content: center;
   }
-  .elements {
-    padding: 3rem 5rem;
-    display: flex;
-    flex-wrap: wrap;
+
+  header nav {
+    display: none;
   }
+  body header button {
+    display: block;
+  }
+  body menu {
+    display: block;
+    position: absolute;
+    top: 0rem;
+    background-color: var(--alpha-black);
+    list-style: none;
+    /* aparicion menu */ 
+    margin: 0;
+    padding: 0;
+    right:50rem;
+    bottom: 0;
+    top:0rem;
+    min-width:33.33%;
+    transition: all linear 0.5s;
+  }
+  body menu a,
+  li {
+    text-decoration: none;
+    padding: 2rem;
+  }
+  body {
+    position: relative;
+  }
+
   .cajas-flex {
     display: flex;
+    flex-wrap: wrap;
     position: absolute;
     top: 15rem;
-    flex-wrap: wrap;
+  }
+  /* aparcion menu */
+  body.menu-open menu{
+    display: block;
+    margin: 0;
+    padding: 0;
+    right:10rem;
+    bottom:0rem;
+    top:0rem;
+    min-width:33.33%;
   }
 }

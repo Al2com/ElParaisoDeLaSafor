@@ -10,9 +10,13 @@ footer {
 }
 .social {
   display: flex;
+  padding-top: 4rem;
 }
 .social img {
   padding: 2rem;
+}
+.contact{
+  padding-top:5rem;
 }
 .contact p {
   color: var(--white);
@@ -35,6 +39,9 @@ footer {
   color: var(--white);
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 3rem;
+  align-items: center;
+  /* padding: 3rem; */
+}
+.final-flex a{
+  font-size: 10px;
 }

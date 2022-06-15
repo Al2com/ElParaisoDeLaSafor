@@ -15,7 +15,7 @@ nav li ,ul, a {
   font-weight: 800;
   list-style: none;
   color:var(--white);
-   text-decoration: none;
+  text-decoration: none;
 }
 
 nav a:hover {

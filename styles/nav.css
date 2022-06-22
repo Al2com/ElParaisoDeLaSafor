@@ -5,9 +5,6 @@ nav ul{
   display: flex;
   /* flex-direction: row; */
   /* justify-content: end; */
-
-  
-
 }
 
 nav li ,ul, a {

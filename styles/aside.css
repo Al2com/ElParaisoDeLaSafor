@@ -24,8 +24,8 @@ picture{
 }
 
 picture:hover img {
-  -webkit-transform: scale(5);
-  transform: scale(5);
+  -webkit-transform: scale(2);
+  transform: scale(2);
 
 }
 

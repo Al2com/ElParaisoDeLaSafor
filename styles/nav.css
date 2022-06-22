@@ -1,3 +1,4 @@
+
 nav ul{
   margin: 0;
   padding:0;
@@ -6,12 +7,14 @@ nav ul{
   /* justify-content: end; */
 
   
+
 }
 
 nav li ,ul, a {
   padding: 2rem;
   /* font-family: var(--normal); */
   font-size: 22px;
+
   font-weight: 800;
   list-style: none;
   color:var(--white);
@@ -25,6 +28,7 @@ nav a:hover {
 menu a:hover{
   font-size:10px;
   color:black;
+
 }
 /* Aplica un margen izquierdo a todos menos al ultimo */
 nav ul li:not(:last-of-type){

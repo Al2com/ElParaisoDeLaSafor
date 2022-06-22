@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /*establece que lo que demos de padding y boreder este dentro de la caja*/
 }
 
 :root {
@@ -7,6 +7,7 @@
   --azul-oscuro: rgb(33, 55, 91);
   --grey: #c6c6c6;
   --white: white;
+  --red: red;
   --yellow: yellow;
   --normal: Arial, Helvetica, sans-serif;
 }
@@ -40,14 +41,14 @@ h1 {
 }
 
 .logo {
-  padding: 2rem 1rem;
+  padding: 5rem;
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   .container-footer {
     display: flex;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
   }
   .social {
     flex-direction: row;
@@ -57,15 +58,49 @@ h1 {
     display: flex;
     justify-content: center;
   }
-  .elements {
-    padding: 3rem 5rem;
-    display: flex;
-    flex-wrap: wrap;
+
+  header nav {
+    display: none;
   }
-  .cajas-flex {
-    display: flex;
+  body header button {
+    display: block;
+  }
+  body menu {
+    display: block;
     position: absolute;
     top: 15rem;
-    flex-wrap: wrap;
+    background-color: var(--alpha-black);
+    list-style: none;
+    /* aparicion menu */
+    /* margin: 0;
+    padding: 0;
+    right:50rem;
+    bottom: 0;
+    top:15rem;
+    min-width:33.33%; */
   }
+  body menu a,
+  li {
+    text-decoration: none;
+    padding: 2rem;
+  }
+  body {
+    position: relative;
+  }
+
+  .cajas-flex {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 15rem;
+  }
+  /* aparcion menu */
+  /* body .menu-open{
+    margin: 0;
+    padding: 0;
+    right:0rem;
+    bottom: 50rem;
+    top:15rem;
+    min-width:33.33%;
+  } */
 }

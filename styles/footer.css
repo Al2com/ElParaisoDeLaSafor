@@ -14,6 +14,9 @@ footer {
 .social img {
   padding: 2rem;
 }
+.contact{
+  padding-top:1rem;
+}
 .contact p {
   color: var(--white);
   font-weight: 600;
@@ -35,6 +38,9 @@ footer {
   color: var(--white);
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  padding: 3rem;
+  align-items: center;
+  /* padding: 3rem; */
+}
+.final-flex a{
+  font-size: 10px;
 }

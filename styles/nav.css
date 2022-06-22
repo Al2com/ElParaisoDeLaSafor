@@ -1,22 +1,36 @@
-nav {
-  border: 3px solid;
-  background-color: white;
-}
-.elements {
+nav ul{
   display: flex;
   flex-direction: row;
+  justify-content: end;
+
+  
+}
+nav{
+  padding: 2rem;
+
 }
 
-nav li {
+nav li ,a {
   padding: 2rem;
   font-family: var(--normal);
   font-size: 22px;
   font-weight: 600;
+  list-style: none;
+  color:aliceblue;
 }
 nav a {
-  list-style: none;
   text-decoration: none;
 }
-nav a :hover {
-  color: var(--red);
+nav a:hover {
+  font-size:30px;
+  color: var(--white);
 }
+menu a:hover{
+  font-size:40px;
+  color:black;
+}
+
+
+
+
+

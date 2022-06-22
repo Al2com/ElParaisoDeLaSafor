@@ -2,8 +2,8 @@ aside {
   background-image: url(/xeraco_img/IMG_4454.JPG);
   background-position: center;
   background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-size: 100% 100%;
+  background-size: cover;
+  background-size: 100% 100%; 
 }
 
 
@@ -24,8 +24,14 @@ picture{
 }
 
 picture:hover img {
+<<<<<<< HEAD
   -webkit-transform: scale(5);
   transform: scale(5);
+=======
+  -webkit-transform: scale(2);
+  transform: scale(2);
+
+>>>>>>> 036654998c84daa3fff3c2b834a74baa32cafdcb
 }
 
 .container-cajas {

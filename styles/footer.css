@@ -10,12 +10,17 @@ footer {
 }
 .social {
   display: flex;
+  padding-top: 4rem;
 }
 .social img {
   padding: 2rem;
 }
 .contact{
+<<<<<<< HEAD
   padding-top:1rem;
+=======
+  padding-top:5rem;
+>>>>>>> 036654998c84daa3fff3c2b834a74baa32cafdcb
 }
 .contact p {
   color: var(--white);

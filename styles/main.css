@@ -23,6 +23,11 @@ body {
   margin: 0 auto;
   font-size: 20px;
   background-color: var(--alpha-black);
+  /* Para mantener el footer en la parte inferior de la pantalla
+  cuando el main no ocupa todo el alto */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 picture {

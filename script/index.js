@@ -21,3 +21,11 @@ closebutton.addEventListener('click',closenMenu)
  function closenMenu(event) {
    document.body.classList.remove('menu-open');
  }
+
+
+//ejecucion para cerrar el menu
+function closeMenu(event) {
+  document.body.classList.remove('menu-open');
+}
+
+

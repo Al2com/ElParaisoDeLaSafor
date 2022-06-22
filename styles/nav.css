@@ -1,3 +1,4 @@
+
 nav ul{
   margin: 0;
   padding:0;
@@ -5,13 +6,13 @@ nav ul{
   /* flex-direction: row; */
   /* justify-content: end; */
 
-  
 }
 
 nav li ,ul, a {
   padding: 2rem;
   /* font-family: var(--normal); */
   font-size: 22px;
+
   font-weight: 800;
   list-style: none;
   color:var(--white);

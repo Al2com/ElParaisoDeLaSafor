@@ -44,7 +44,7 @@ h1 {
   padding: 5rem;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
   .container-footer {
     display: flex;
     flex-direction: column;
@@ -65,19 +65,19 @@ h1 {
   body header button {
     display: block;
   }
-  body menu {
+  body menu  {
     display: block;
     position: absolute;
     top: 15rem;
     background-color: var(--alpha-black);
     list-style: none;
-    /* aparicion menu */
-    /* margin: 0;
+    /* aparicion menu  */
+    margin: 0;
     padding: 0;
-    right:50rem;
-    bottom: 0;
+    right:33.3rem;
+    bottom:0rem;
     top:15rem;
-    min-width:33.33%; */
+    min-width:33.33%;
   }
   body menu a,
   li {
@@ -94,13 +94,15 @@ h1 {
     position: absolute;
     top: 15rem;
   }
-  /* aparcion menu */
-  /* body .menu-open{
+  /* aparcion menu  */
+   body.menu-open menu{
+    display: block;
     margin: 0;
     padding: 0;
-    right:0rem;
-    bottom: 50rem;
+    right:5rem;
+    bottom:50rem;
     top:15rem;
     min-width:33.33%;
-  } */
+    height:20%;
+  }
 }

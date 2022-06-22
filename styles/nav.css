@@ -5,7 +5,6 @@ nav ul{
   display: flex;
   /* flex-direction: row; */
   /* justify-content: end; */
-
 }
 
 nav li ,ul, a {
@@ -26,6 +25,7 @@ nav a:hover {
 menu a:hover{
   font-size:10px;
   color:black;
+
 }
 /* Aplica un margen izquierdo a todos menos al ultimo */
 nav ul li:not(:last-of-type){

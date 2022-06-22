@@ -24,14 +24,9 @@ picture{
 }
 
 picture:hover img {
-<<<<<<< HEAD
-  -webkit-transform: scale(5);
-  transform: scale(5);
-=======
   -webkit-transform: scale(2);
   transform: scale(2);
 
->>>>>>> 036654998c84daa3fff3c2b834a74baa32cafdcb
 }
 
 .container-cajas {

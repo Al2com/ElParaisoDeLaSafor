@@ -3,40 +3,18 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-<<<<<<< HEAD
-
-=======
-  border-bottom: 5px white solid;
->>>>>>> 036654998c84daa3fff3c2b834a74baa32cafdcb
 }
 
 
 header .logo {
   display: flex;
-<<<<<<< HEAD
   justify-content: space-around;
-=======
-  justify-content: space-between;
->>>>>>> 036654998c84daa3fff3c2b834a74baa32cafdcb
   font-size: 15px;
 }
 
 header .logo img {
   width: 5rem;
   margin-right: 2rem;
-<<<<<<< HEAD
-=======
-}
-
-header button {
-  display: none;
-}
-menu {
-  display: none;
-}
-button > img{
-  width: 5%;
->>>>>>> 036654998c84daa3fff3c2b834a74baa32cafdcb
 }
 
 header button{

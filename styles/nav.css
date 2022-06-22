@@ -22,11 +22,11 @@ nav a {
   text-decoration: none;
 }
 nav a:hover {
-  font-size:30px;
-  color: var(--white);
+  font-size:25px;
+  color: var(--azul-oscuro);
 }
 menu a:hover{
-  font-size:40px;
+  font-size:20px;
   color:black;
 }
 

@@ -12,7 +12,6 @@ nav{
 
 nav li ,a {
   padding: 2rem;
-  /* font-family: var(--normal); */
   font-size: 22px;
   font-weight: 600;
   list-style: none;
